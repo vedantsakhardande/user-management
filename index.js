@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 // GET route
 app.get("/health", (req, res) => {
-  res.send("Ok");
+  res.json({ Health: "Okay" });
 });
 
 // start server
