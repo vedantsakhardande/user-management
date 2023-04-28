@@ -7,4 +7,4 @@ RUN npm i
 
 # Starting the Server and exposing port 5000
 CMD npm start
-EXPOSE 5000
+EXPOSE 5001
